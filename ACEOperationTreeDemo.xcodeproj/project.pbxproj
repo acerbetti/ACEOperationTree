@@ -14,6 +14,7 @@
 		80329C541BB1F2CD0010C6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80329C531BB1F2CD0010C6E9 /* Assets.xcassets */; };
 		80329C571BB1F2CD0010C6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80329C551BB1F2CD0010C6E9 /* LaunchScreen.storyboard */; };
 		80329C621BB1F2CD0010C6E9 /* ACEOperationTreeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329C611BB1F2CD0010C6E9 /* ACEOperationTreeDemoTests.m */; };
+		80329C6F1BB1F3240010C6E9 /* ACEOperationTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329C6E1BB1F3240010C6E9 /* ACEOperationTree.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		80329C5D1BB1F2CD0010C6E9 /* ACEOperationTreeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACEOperationTreeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80329C611BB1F2CD0010C6E9 /* ACEOperationTreeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACEOperationTreeDemoTests.m; sourceTree = "<group>"; };
 		80329C631BB1F2CD0010C6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80329C6D1BB1F3240010C6E9 /* ACEOperationTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEOperationTree.h; sourceTree = "<group>"; };
+		80329C6E1BB1F3240010C6E9 /* ACEOperationTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEOperationTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		80329C3B1BB1F2CD0010C6E9 = {
 			isa = PBXGroup;
 			children = (
+				80329C6C1BB1F3150010C6E9 /* ACEOperationTree */,
 				80329C461BB1F2CD0010C6E9 /* ACEOperationTreeDemo */,
 				80329C601BB1F2CD0010C6E9 /* ACEOperationTreeDemoTests */,
 				80329C451BB1F2CD0010C6E9 /* Products */,
@@ -109,6 +113,15 @@
 				80329C631BB1F2CD0010C6E9 /* Info.plist */,
 			);
 			path = ACEOperationTreeDemoTests;
+			sourceTree = "<group>";
+		};
+		80329C6C1BB1F3150010C6E9 /* ACEOperationTree */ = {
+			isa = PBXGroup;
+			children = (
+				80329C6D1BB1F3240010C6E9 /* ACEOperationTree.h */,
+				80329C6E1BB1F3240010C6E9 /* ACEOperationTree.m */,
+			);
+			path = ACEOperationTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +227,7 @@
 				80329C4F1BB1F2CD0010C6E9 /* ViewController.m in Sources */,
 				80329C4C1BB1F2CD0010C6E9 /* AppDelegate.m in Sources */,
 				80329C491BB1F2CD0010C6E9 /* main.m in Sources */,
+				80329C6F1BB1F3240010C6E9 /* ACEOperationTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +414,7 @@
 				80329C681BB1F2CD0010C6E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80329C691BB1F2CD0010C6E9 /* Build configuration list for PBXNativeTarget "ACEOperationTreeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +423,7 @@
 				80329C6B1BB1F2CD0010C6E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
